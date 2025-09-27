@@ -1,0 +1,12 @@
+a =  " Hello World! \n"
+print("Default:" + a)
+b = a.strip()
+print("Strip: " + b)
+c = a.capitalize()
+print("Capitalize: " + c)
+d = a.title()
+print("Title: " + d)
+f = a.upper()
+print("Upper: " + f)
+g = a.lower()
+print("Lower: " + g)
