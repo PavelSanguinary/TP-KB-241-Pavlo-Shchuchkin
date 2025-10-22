@@ -21,7 +21,10 @@ match f:
     case '-':
         print(minus(a,b))
     case '/':
-        print(dilena(a,b))
+        if b == 0:
+            print("Помилка")
+        else:
+            print(dilena(a,b))
     case '*':
         print(mnojena(a,b))
     case _:
